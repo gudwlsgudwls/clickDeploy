@@ -153,6 +153,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>ClickDeploy</label>
+    <nameField>
+        <label>ClickDeploy 이름</label>
+        <type>Text</type>
+    </nameField>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Save_Succesfully__c</fullName>
         <defaultValue>false</defaultValue>
@@ -163,17 +171,9 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
-    <label>ClickDeploy</label>
-    <nameField>
-        <label>ClickDeploy 이름</label>
-        <type>Text</type>
-    </nameField>
     <recordTypes>
         <fullName>CD_Record_Type</fullName>
         <active>true</active>
         <label>CD Record Type</label>
     </recordTypes>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
