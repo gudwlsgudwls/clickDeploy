@@ -1,2 +1,2 @@
 # clickDeploy
-make branches
+make branches 2
