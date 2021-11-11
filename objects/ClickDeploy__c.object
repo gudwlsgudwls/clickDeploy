@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Save_Succesfully__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>class를 통해 저장이 완료됐다</description>
+        <externalId>false</externalId>
+        <inlineHelpText>입력하지 마시오</inlineHelpText>
+        <label>Save Succesfully</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <recordTypes>
+        <fullName>CD_Record_Type</fullName>
+        <active>true</active>
+        <label>CD Record Type</label>
+    </recordTypes>
+</CustomObject>
