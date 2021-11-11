@@ -33,4 +33,11 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
+    <layoutAssignments>
+        <layout>ClickDeploy__c-ClickDeploy 레이아웃</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClickDeploy__c-ClickDeploy 레이아웃</layout>
+        <recordType>ClickDeploy__c.CD_Record_Type</recordType>
+    </layoutAssignments>
 </Profile>
