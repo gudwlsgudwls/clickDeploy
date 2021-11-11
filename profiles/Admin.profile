@@ -66,6 +66,9 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <layoutAssignments>
+        <layout>AA22__c-AA22 Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ClickDeploy__c-ClickDeploy 레이아웃</layout>
     </layoutAssignments>
     <layoutAssignments>

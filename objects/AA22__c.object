@@ -153,6 +153,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>AA22</label>
+    <nameField>
+        <label>AA22 이름</label>
+        <type>Text</type>
+    </nameField>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>AA22_TEXT__c</fullName>
         <externalId>false</externalId>
@@ -163,12 +171,4 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>AA22</label>
-    <nameField>
-        <label>AA22 이름</label>
-        <type>Text</type>
-    </nameField>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
