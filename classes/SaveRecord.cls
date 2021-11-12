@@ -1,9 +1,9 @@
 public class SaveRecord {
-    public static String saveRecord(String str) {
-       ClickDeploy__c cd = new ClickDeploy__c();
-       cd.Name = str;
+    public static String saveRecord(String str002) {
+       ClickDeploy__c cd001 = new ClickDeploy__c();
+       cd001.Name = 'change str'+str002;
        
-       insert cd;
-        return str;
+       insert cd001;
+       return str002;
     }
 }
