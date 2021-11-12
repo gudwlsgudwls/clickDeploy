@@ -5,5 +5,4 @@ public class SaveRecord {
        
        insert cd001;
        return str001;
-    }
 }

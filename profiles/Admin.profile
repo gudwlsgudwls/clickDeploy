@@ -56,6 +56,7 @@
         <object>AA22__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -65,9 +66,13 @@
         <object>ClickDeploy__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <layoutAssignments>
-        <layout>AA22__c-AA22 Page Layout</layout>
-    </layoutAssignments>
+
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>ClickDeploy__c.CD_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <userLicense>Salesforce</userLicense>
     <layoutAssignments>
         <layout>ClickDeploy__c-ClickDeploy 레이아웃</layout>
     </layoutAssignments>
