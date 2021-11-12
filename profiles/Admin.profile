@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>AA22</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>ClickDeploy</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <categoryGroupVisibilities>
         <dataCategoryGroup>Audience</dataCategoryGroup>
         <visibility>ALL</visibility>
     </categoryGroupVisibilities>
+    <custom>false</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AA22__c.AA22_TEXT__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ClickDeploy__c.Save_Succesfully__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>ClickDeploy__c.CD_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>AA22__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ClickDeploy__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
     <classAccesses>
         <apexClass>SaveRecord</apexClass>
         <enabled>true</enabled>
@@ -12,12 +47,16 @@
         <apexClass>SaveRecordTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <custom>false</custom>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ClickDeploy__c.Save_Succesfully__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AA22__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -27,6 +66,7 @@
         <object>ClickDeploy__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>ClickDeploy__c.CD_Record_Type</recordType>
